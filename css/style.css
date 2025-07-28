@@ -1,0 +1,32 @@
+body {
+    font-family: "Comic Sans MS", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: #ffff00;
+}
+
+nav {
+    background-color: #0eeee6;
+}
+
+main {
+    background-color: #cdcfec;
+}
+
+footer {
+    background-color: #aace88;
+}
+li {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Arial", cursive;
+}
+
+p {
+    line-height: 200%;
+}
