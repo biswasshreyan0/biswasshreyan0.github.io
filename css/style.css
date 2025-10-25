@@ -19,10 +19,16 @@ main {
 footer {
     background-color: #aace88;
 }
-
+/*
 li {
     display: inline-block;
     width: 200px;
+}
+*/
+
+nav {
+    display: inline-block;
+    width: 80%
 }
 
 h1 {
@@ -31,6 +37,20 @@ h1 {
     color: #c90e8d;
 }
 
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+
+.containerf {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav img {
+    width: 10%;
+}
 p {
     line-height: 200%;
 }
